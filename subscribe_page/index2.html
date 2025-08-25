@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <style>
+        body {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-wrap: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container-fluid {
+            background-color: white;
+            border-radius: 50px;
+        }
+
+        i {
+            font-size: 2rem;
+            color: orangered;
+        }
+
+        @media (max-width: 800px ) {
+            img{
+                height: 300px !important;
+                width: 80vw !important;
+                margin-right: 30px !important;            
+            }
+        }
+        img{
+            border-radius: 15px;
+            transform: scale(0.9);
+        }
+    </style>
+
+</head>
+
+<body class="d-flex vh-100 " style="background-color: rgb(192, 231, 247);">
+    <div class="bg-dark d-flex  justify-content-center align-items-center p-5 col-12 col-md-10 ">
+        <div class="container-fluid px-3 py-2 col-12 col-md-9 g-1" >
+            <div class="row  flex-row-reverse align-items-center justify-content-center ">
+               
+                <div class="image col-12 col-lg-6  rounded-3 overflow-hidden">
+                        <img src="sample.png" height="500" width="350px" alt="">
+                </div>
+
+                <div class="col-12 col-lg-6 ps-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>Stay Updated!</h1>
+                        </div>
+
+                        <div class="col-12">
+                            <p>Join 60,000+ product manager receiving monthly updates on :</p>
+                        </div>
+
+                        <div class="row d-flex flex-column align-items-center">
+                            <div class="col-12 ">
+                                <p><i class="fa-solid fa-circle-check"></i> Product delivery and Building what matters.
+                                </p>
+                            </div>
+
+                            <div class="col-12">
+                                <p><i class="fa-solid fa-circle-check"></i> Measuring to ensures updates on succcess</p>
+                            </div>
+
+                            <div class="col-12">
+                                <p><i class="fa-solid fa-circle-check"></i> And much more!</p>
+                            </div>
+                        </div>
+                        <div class="col-12 g-2">
+                            <div class="form-group ">
+                                <label for="exampleInputEmail1"><strong>Email address</strong></label>
+                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1"
+                                    placeholder="email@company.com">
+                            </div>
+                        </div>
+
+                        <div class="col-12 g-2">
+                            <div class="button">
+                                <button class="btn btn-dark btn-lg col-12"><a href="./index.html" style="text-decoration: none; color: white;"> Subscribe to monthly newsletter</a></button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
